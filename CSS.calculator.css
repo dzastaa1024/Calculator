@@ -1,0 +1,111 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+
+body
+{
+    
+    box-sizing: border-box;
+    height: 80vh;
+    width: 340px;
+    display: flex;
+    font-family: arial;
+    margin: 0 auto;
+}
+
+section
+{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-content: space-between;
+    
+    
+    
+}
+
+section div
+{
+    flex-basis: 30%;
+    font-size: 30px;
+    background-color: rgb(59, 59, 59);
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+    
+
+}
+
+.top 
+{
+flex-basis: 100%;
+font-size: 50px;
+color: white;
+background-color: black;
+height: 80px;
+line-height: 80px;
+margin-top: 10px;
+text-align: right;
+padding-right: 10px;
+
+
+}
+
+
+section div:nth-last-child(1)
+{
+    flex-basis: 45%;
+    background-color: rgb(197, 207, 216);
+    padding: 5px 0;
+    ;
+}
+
+section div:nth-last-child(2)
+{
+    flex-basis: 45%;
+    background-color: rgb(197, 207, 216);
+    padding: 5px 0;
+    
+    
+}
+
+section div:nth-last-child(3)
+{
+    background-color: rgb(255, 120, 9);
+}
+
+section div:nth-last-child(4)
+{
+    background-color: rgb(255, 120, 9);
+}
+
+section div:nth-last-child(5)
+{
+    background-color: rgb(255, 120, 9);
+}
+
+
+div.top~div:hover 
+{
+    background-color: rgb(110, 105, 105);
+}
+
+div.top~div:nth-last-child(5):hover 
+{
+    background-color: rgb(236, 194, 22);
+}
+
+div.top~div:nth-last-child(4):hover 
+{
+    background-color: rgb(236, 194, 22);
+}
+
+div.top~div:nth-last-child(3):hover 
+{
+    background-color: rgb(236, 194, 22);
+}
